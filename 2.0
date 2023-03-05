@@ -1,0 +1,28 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting pycocotools
+  Downloading http://mirrors.aliyun.com/pypi/packages/ef/c6/90220be3b39fbc4cbd203775ca47dd8dc97fae06fbd2b500637395621b7c/pycocotools-2.0.6.tar.gz (24 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy in f:\anaconda\envs\yolov5\lib\site-packages (from pycocotools) (1.21.6)
+Requirement already satisfied: matplotlib>=2.1.0 in f:\anaconda\envs\yolov5\lib\site-packages (from pycocotools) (3.5.3)
+Requirement already satisfied: cycler>=0.10 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (4.38.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (1.4.4)
+Requirement already satisfied: python-dateutil>=2.7 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (2.8.2)
+Requirement already satisfied: packaging>=20.0 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (22.0)
+Requirement already satisfied: pyparsing>=2.2.1 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (3.0.9)
+Requirement already satisfied: pillow>=6.2.0 in f:\anaconda\envs\yolov5\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (9.3.0)
+Requirement already satisfied: typing-extensions in f:\anaconda\envs\yolov5\lib\site-packages (from kiwisolver>=1.0.1->matplotlib>=2.1.0->pycocotools) (4.4.0)
+Requirement already satisfied: six>=1.5 in f:\anaconda\envs\yolov5\lib\site-packages (from python-dateutil>=2.7->matplotlib>=2.1.0->pycocotools) (1.16.0)
+Building wheels for collected packages: pycocotools
+  Building wheel for pycocotools (pyproject.toml): started
+  Building wheel for pycocotools (pyproject.toml): finished with status 'done'
+  Created wheel for pycocotools: filename=pycocotools-2.0.6-cp37-cp37m-win_amd64.whl size=74626 sha256=89a920b5f9b9cc6fda54c0ea94abf204a7e6c50231381bce5ab682d5d3ed1000
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\8f\d2\2c\761be81491011da3f3eac7f81a9c6147a22deba78f75c0975c
+Successfully built pycocotools
+Installing collected packages: pycocotools
+Successfully installed pycocotools-2.0.6
